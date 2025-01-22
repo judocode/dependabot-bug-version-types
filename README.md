@@ -1,0 +1,1 @@
+# dependabot-bug-version-types
