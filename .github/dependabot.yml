@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: 'npm'
+    groups:
+      nest:
+        patterns:
+          - '@nestjs/*'
+        update-types:
+          - 'major'
+      upgrades:
+        patterns:
+          - '*'
+        update-types:
+          - 'patch'
+          - 'minor'
+  
